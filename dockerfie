@@ -2,13 +2,15 @@ FROM python:3.9-alpine
 
 WORKDIR /app
 
-# Build dependencies for ARM architecture
 RUN apk add --no-cache \
     gcc \
     musl-dev \
     python3-dev \
     linux-headers \
     curl
+
+# Pehle telebot install karo
+RUN pip install telebot==0.0.5
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
