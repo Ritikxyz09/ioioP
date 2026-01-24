@@ -13,7 +13,7 @@ from telebot import types
 from datetime import datetime
 
 # --- Configuration ---
-BOT_TOKEN = "8487271564:AAGCRluXa85Mpaz5dli826w1fKKDSRNI_LE"
+BOT_TOKEN = "8370832160:AAExSu69enQ_hbJhjBGSaIbdkjUyaFxYiD0"
 OWNER_ID = 7964730489  # The user with "Owner Power"
 AUTHORIZED_USERS = []
 
